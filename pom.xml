@@ -52,12 +52,12 @@
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
           <configuration>
-<!--            <archive>-->
-<!--              <manifest>-->
-<!--                <addClasspath>true</addClasspath>-->
-<!--                <mainClass>org.example.App</mainClass>-->
-<!--              </manifest>-->
-<!--            </archive>-->
+            <archive>
+              <manifest>
+                <addClasspath>true</addClasspath>
+                <mainClass>org.example.App</mainClass>
+              </manifest>
+            </archive>
           </configuration>
         </plugin>
         <plugin>
