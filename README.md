@@ -7,4 +7,9 @@
 `mvn clean package`
 
 ## Run
-`java -jar target/XXX.jar`
+
+### Before jar config
+`java -cp target/basic-archetype-test-1.0-SNAPSHOT.jar org.example.App`
+
+### After jar config
+`java -jar target/basic-archetype-test-1.0-SNAPSHOT.jar`
